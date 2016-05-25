@@ -1,0 +1,63 @@
+#home{
+	background-color: #71C6E2;
+}
+#lijsten{
+	background-color: #fafafa;
+	text-align: center;
+}
+.jumbotron{
+	text-align: center;
+}
+#info{
+	text-align: center;
+	color: white;
+}
+
+#homeset input{
+	max-width: 50%;
+	margin-left: 25%;
+}
+
+#submitbtn{
+	max-width: 50%;
+	margin-left: 25%;
+}
+
+#data, #naturaltoken{
+	display: none;
+}
+
+#logout{
+	position: fixed;
+	top: 50px;
+	right: 25px;
+	font-size: 30px;
+	color: #aaa;
+}
+
+#back{
+	position: fixed;
+	top: 50px;
+	left: 25px;
+	font-size: 30px;
+	color: #aaa;
+}
+
+/* Responsive */
+@media all and (max-width: 760px) {
+	#homeset input, #submitbtn{
+		max-width: 100% !important;
+		width: 100%;
+		margin-left: 0 !important;
+	}
+}
+
+/* Gimicks */
+#info ::selection{
+	background-color: #fafafa;
+	color: #71C6E2;
+}
+.jumbotron ::selection{
+	background-color: #71C6E2;
+	color: #fafafa;
+}
